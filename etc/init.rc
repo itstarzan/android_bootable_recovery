@@ -26,9 +26,6 @@ on init
     rmdir /sbin
     symlink /system/bin /sbin
 
-    mount cgroup none /acct cpuacct
-    mkdir /acct/uid
-
     mkdir /sdcard
     mkdir /system
     mkdir /data
