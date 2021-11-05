@@ -39,7 +39,7 @@ cc_library_shared {
         "-Werror",
     ],
     include_dirs: [
-        "external/gptfdisk",
+        "external/gptfdisk_old",
     ],
     shared_libs: [
         "libbase",
